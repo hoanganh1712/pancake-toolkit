@@ -6,7 +6,7 @@ Pancake UIkit is a set of React components and hooks used to build pages on Panc
 
 ## Install
 
-`yarn add @pancakeswap-libs/uikit`
+`yarn add @pancakeswap123-libs/uikit`
 
 ## Setup
 
