@@ -6,7 +6,7 @@ Pancake UIkit is a set of React components and hooks used to build pages on Panc
 
 ## Install
 
-`yarn add @pancakeswap123-libs/uikit`
+`yarn add @hoanganh1712/uikit`
 
 ## Setup
 
@@ -16,7 +16,7 @@ Before using Pancake UIkit, you need to provide the theme file to styled-compone
 
 ```
 import { ThemeProvider } from 'styled-components'
-import { light, dark } from '@pancakeswap-libs/uikit'
+import { light, dark } from '@hoanganh1712/uikit'
 ...
 <ThemeProvider theme={isDark}>...</ThemeProvider>
 ```
@@ -26,7 +26,7 @@ import { light, dark } from '@pancakeswap-libs/uikit'
 A reset CSS is available as a global styled component.
 
 ```
-import { ResetCSS } from '@pancakeswap-libs/uikit'
+import { ResetCSS } from '@hoanganh1712/uikit'
 ...
 <ResetCSS />
 ```
@@ -37,4 +37,4 @@ This project is built with Typescript and export all the relevant types.
 
 ## How to use the UIkit
 
-If you want to use components from the UIkit, check the [Storybook documentation](https://pancakeswap.github.io/pancake-uikit/)
+If you want to use components from the UIkit, check the [Storybook documentation](https://github.com/hoanganh1712/pancake-toolkit/tree/main/packages/pancake-uikit)
