@@ -1,6 +1,7 @@
 export { default as AddIcon } from "./Icons/Add";
 export { default as ArrowBackIcon } from "./Icons/ArrowBack";
 export { default as ArrowDownIcon } from "./Icons/ArrowDown";
+export { default as ConvertIcon } from "./Icons/ConvertIcon";
 export { default as ArrowDropDownIcon } from "./Icons/ArrowDropDown";
 export { default as ArrowDropUpIcon } from "./Icons/ArrowDropUp";
 export { default as ArrowForwardIcon } from "./Icons/ArrowForward";

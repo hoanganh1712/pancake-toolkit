@@ -17,11 +17,11 @@ const getBorderColor = ({ theme, variant }: StyledButtonMenuProps) => {
 };
 
 const StyledButtonMenu = styled.div<StyledButtonMenuProps>`
-  background-color: ${getBackgroundColor};
+  background-color: #fff;
   border-radius: 16px;
   display: inline-flex;
   border: 1px solid ${getBorderColor};
-
+  padding: 6px;
   & > button + button,
   & > a + a {
     margin-left: 2px; // To avoid focus shadow overlap
