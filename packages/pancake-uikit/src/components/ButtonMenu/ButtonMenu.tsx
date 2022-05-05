@@ -21,7 +21,7 @@ const StyledButtonMenu = styled.div<StyledButtonMenuProps>`
   border-radius: 40px;
   display: inline-flex;
   border: 1px solid ${getBorderColor};
-  padding: 6px;
+  padding: 5px;
   & > button + button,
   & > a + a {
     margin-left: 2px; // To avoid focus shadow overlap
