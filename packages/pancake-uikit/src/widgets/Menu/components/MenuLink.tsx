@@ -7,7 +7,14 @@ const MenuLink: React.FC<AnchorHTMLAttributes<HTMLAnchorElement>> = ({ href, ...
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const Tag: any = isHttpLink ? "a" : NavLink;
   const props = isHttpLink ? { href } : { to: href };
-  return <Tag role="button" {...props} {...otherProps} />;
+
+  const handleClick = (e: any) => {
+    if(href === '/comingsoon') {
+      e.preventDefault()
+      return;
+    }
+  }
+  return <Tag role="button" {...props} {...otherProps}  onClick={handleClick} />;
 };
 
 export default MenuLink;
